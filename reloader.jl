@@ -1,8 +1,6 @@
-module Reloader
-    include("src/JuliaIncludeTest.jl")
+include("src/JuliaIncludeTest.jl")
 
-    function reload()
-        include("src/JuliaIncludeTest.jl");
-        JuliaIncludeTest.greet()
-    end
+function reload()
+    include("src/JuliaIncludeTest.jl");
+    JuliaIncludeTest.greet()
 end
