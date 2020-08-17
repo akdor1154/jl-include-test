@@ -1,0 +1,4 @@
+name = "JuliaIncludeTest"
+uuid = "6e7b637a-b8de-44b3-8433-76a454e933ab"
+authors = ["Jarrad Whitaker <akdor1154@gmail.com>"]
+version = "0.1.0"
